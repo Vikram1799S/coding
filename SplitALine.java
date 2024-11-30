@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class SplitALine{
     public static void main(String[] args) {
-        System.out.print("Enter the value : ");
+        System.out.print("Enter the values : ");
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         String str = sc.next().replace(" ", "");
