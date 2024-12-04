@@ -1,10 +1,12 @@
 import java.util.Scanner;
-class Pattern7 {
+
+public class Pattern8 {
     public static void main(String[] args) {
+        System.out.print("Enter N : ");
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        for(int i=1; i<=n ; i++){
-            for(int j=1; j<= n-i+1 ; j++){
+        for (int i = n; i >= 1; i--) {
+            for (int j = i; j >= 1; j--) {
                 System.out.print(j);
             }
             System.out.println();
@@ -13,9 +15,13 @@ class Pattern7 {
     }
 }
 
-//4
+// 6
 
-//1234
-//123
-//12
-//1
+/*
+ * 654321
+ * 54321
+ * 4321
+ * 321
+ * 21
+ * 1
+ */
