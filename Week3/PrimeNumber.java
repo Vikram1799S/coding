@@ -10,7 +10,7 @@ class PrimeNumber {
                     if(i%j == 0)
                         flag = false; 
                 }
-                if(flag) System.out.println(i);
+                if(flag) System.out.print(i+" ");
             }
         }else if(n==1)
             System.out.println(n);
