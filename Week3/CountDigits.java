@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class CountDigits {
     public static void main(String[] args) {
+        System.out.print("Enetr value :");
         Scanner sc = new Scanner(System.in);
         long n = sc.nextLong();
         int count = 0;
