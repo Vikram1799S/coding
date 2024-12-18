@@ -8,14 +8,15 @@ public class LargestElement {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int arr[] = new int[n];
-        int lar = 0;
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        for(int val : arr){
-            if (val > lar) lar = val;
+        int lar = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > lar)
+                lar = arr[i];
         }
-        System.out.println("Largest element of the array is : "+ lar);
+        System.out.println("Largest element of the array is : " + lar);
         sc.close();
     }
 }
