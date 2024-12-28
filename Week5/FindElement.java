@@ -18,3 +18,8 @@ public class FindElement {
         sc.close();
     }
 }
+
+//5
+//1 2 3 4 5
+//index : 2
+//o/p : 3
