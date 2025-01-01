@@ -27,3 +27,9 @@ public class SumOfPrimeNum {
         sc.close();
     }
 }
+
+/*
+10
+20
+O/P : 60
+ */
