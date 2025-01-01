@@ -20,7 +20,7 @@ public class FirtsOccurrenceBS {
             mid = (low + high) / 2;
             if (arr[mid] == fi) {
                 result = mid;
-                high = mid - 1;
+                high = mid + 1; // If last occurence : low = mid + 1;
             } else if (arr[mid] > fi) {
                 high = mid - 1;
             } else if (arr[mid] < fi) {
